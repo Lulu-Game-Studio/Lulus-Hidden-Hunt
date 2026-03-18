@@ -15,6 +15,8 @@ extends Control
 
 @onready var hud = $HUD
 
+var collected = 0
+
 var total = 0
 const TOTAL_NEEDED = 3
 
@@ -56,3 +58,9 @@ func _on_bridge_zone_2_body_entered(body):
 			invisible_wall2.queue_free()
 			bridge_zone2.queue_free()
 			bridge2.show()
+
+func _on_object_collected():
+	collected += 1
+
+	if collected == 5:
+		get_tree().call_deferred("change_scene_to_file", "res://Scene/Levels/Level5.tscn")

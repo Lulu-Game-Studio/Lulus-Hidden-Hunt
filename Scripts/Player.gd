@@ -44,5 +44,6 @@ func _physics_process(delta):
 
 func _on_dog_animation_finished():
 	if current_state == "bark":
+		Signals.bark.emit()
 		current_state = movement_state
 		player.play(current_state)

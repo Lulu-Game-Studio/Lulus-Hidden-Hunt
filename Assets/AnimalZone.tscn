@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b8u7ko1m3b1mc"]
+
+[ext_resource type="Texture2D" uid="uid://bnxva3beb4k55" path="res://Texture/Empty.png" id="1_75pce"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_irgxg"]
+size = Vector2(228.5, 193.5)
+
+[node name="AnimalZone" type="Area2D" unique_id=1194319005]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=291063016]
+scale = Vector2(0.3380682, 0.530303)
+texture = ExtResource("1_75pce")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=383638723]
+shape = SubResource("RectangleShape2D_irgxg")

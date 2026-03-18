@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bdy4a7dcn43ms"]
+
+[ext_resource type="Script" uid="uid://ii4ffnlp4s2" path="res://Scripts/GeneralObject.gd" id="1_tpnng"]
+[ext_resource type="Texture2D" uid="uid://bhvvh3lr8ju0" path="res://Texture/Objects/dog_toy.png" id="2_7v4tw"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7v4tw"]
+radius = 53.0
+height = 404.0
+
+[node name="Toy" type="Area2D" unique_id=707033739]
+script = ExtResource("1_tpnng")
+metadata/_custom_type_script = "uid://ii4ffnlp4s2"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1714418541]
+texture_filter = 1
+scale = Vector2(0.1743484, 0.1743484)
+texture = ExtResource("2_7v4tw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1617982317]
+rotation = 1.5707964
+scale = Vector2(0.1743484, 0.1743484)
+shape = SubResource("CapsuleShape2D_7v4tw")

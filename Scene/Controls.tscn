@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c8og6axvmnhx1"]
 
-[ext_resource type="Script" uid="uid://4gpmyyq2hbal" path="res://Scene/Controls.gd" id="1_u61ue"]
+[ext_resource type="Script" uid="uid://4gpmyyq2hbal" path="res://Scripts/Controls.gd" id="1_u61ue"]
 [ext_resource type="Texture2D" uid="uid://byhd5p7sjm2wv" path="res://Texture/Menu/background.png" id="2_4b8wc"]
 [ext_resource type="Texture2D" uid="uid://bco3qjtrrtmkj" path="res://Texture/Menu/back_button.png" id="3_u61ue"]
 [ext_resource type="FontFile" uid="uid://vt2prk0ma77b" path="res://Texture/Fonts/minecraftia/Minecraftia-Regular.ttf" id="3_wvdf8"]
@@ -33,7 +33,7 @@ offset_right = 123.72931
 offset_bottom = 39.523315
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(0.73997796, 0.73997796)
+scale = Vector2(0.6525446, 0.6525446)
 texture_normal = ExtResource("3_u61ue")
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=1617539001]
