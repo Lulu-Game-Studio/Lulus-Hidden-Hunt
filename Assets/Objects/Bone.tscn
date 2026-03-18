@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dmpfw647yxu84"]
+
+[ext_resource type="Script" uid="uid://ii4ffnlp4s2" path="res://Scripts/GeneralObject.gd" id="1_2xwfv"]
+[ext_resource type="Texture2D" uid="uid://co3wr1kqi67e0" path="res://Texture/Objects/Bone.png" id="2_7ktix"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ktix"]
+size = Vector2(320.31396, 124.54903)
+
+[node name="Bone" type="Area2D" unique_id=272989]
+script = ExtResource("1_2xwfv")
+metadata/_custom_type_script = "uid://ii4ffnlp4s2"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=303527989]
+texture_filter = 1
+scale = Vector2(0.17984217, 0.17984217)
+texture = ExtResource("2_7ktix")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=995530567]
+position = Vector2(1, -1.0000005)
+rotation = -0.654527
+scale = Vector2(0.17984214, 0.17984214)
+shape = SubResource("RectangleShape2D_7ktix")

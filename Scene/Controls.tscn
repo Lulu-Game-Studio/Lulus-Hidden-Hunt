@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://c8og6axvmnhx1"]
+
+[ext_resource type="Script" uid="uid://4gpmyyq2hbal" path="res://Scene/Controls.gd" id="1_u61ue"]
+[ext_resource type="Texture2D" uid="uid://byhd5p7sjm2wv" path="res://Texture/Menu/background.png" id="2_4b8wc"]
+[ext_resource type="Texture2D" uid="uid://bco3qjtrrtmkj" path="res://Texture/Menu/back_button.png" id="3_u61ue"]
+[ext_resource type="FontFile" uid="uid://vt2prk0ma77b" path="res://Texture/Fonts/minecraftia/Minecraftia-Regular.ttf" id="3_wvdf8"]
+
+[node name="ControlsMenu" type="Control" unique_id=114357393]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u61ue")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=401582898]
+texture_filter = 1
+position = Vector2(584, 306)
+scale = Vector2(0.765869, 0.765869)
+texture = ExtResource("2_4b8wc")
+
+[node name="ReturnButton" type="TextureButton" parent="." unique_id=49436870]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.3637153
+anchor_top = 0.72222227
+anchor_right = 0.63478357
+anchor_bottom = 0.8957974
+offset_left = 11.0
+offset_right = 123.72931
+offset_bottom = 39.523315
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.73997796, 0.73997796)
+texture_normal = ExtResource("3_u61ue")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1617539001]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.16319445
+anchor_top = 0.08950617
+anchor_right = 0.87499994
+anchor_bottom = 0.64351845
+offset_left = -14.0
+offset_right = -346.0089
+offset_bottom = -145.3551
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.6803586, 1.6803586)
+
+[node name="ColorRect" type="ColorRect" parent="PanelContainer" unique_id=404512137]
+layout_mode = 2
+color = Color(2.368033e-05, 0.66141635, 0.4354589, 0.65882355)
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1353949153]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Title" type="Label" parent="PanelContainer/MarginContainer" unique_id=849113288]
+texture_filter = 1
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("3_wvdf8")
+theme_override_font_sizes/font_size = 28
+text = "CONTROLS"
+horizontal_alignment = 1
+
+[node name="Title2" type="Label" parent="PanelContainer/MarginContainer" unique_id=239574232]
+texture_filter = 1
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_fonts/font = ExtResource("3_wvdf8")
+theme_override_font_sizes/font_size = 20
+text = "Move - WASD
+Run - WASD + SHIFT
+Bark - E
+Talk - Q"
+
+[connection signal="pressed" from="ReturnButton" to="." method="_on_return_button_pressed"]

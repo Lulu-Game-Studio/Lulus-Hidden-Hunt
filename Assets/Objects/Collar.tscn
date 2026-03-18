@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://6tgh8oacglca"]
+
+[ext_resource type="Script" uid="uid://ii4ffnlp4s2" path="res://Scripts/GeneralObject.gd" id="1_lqthw"]
+[ext_resource type="Texture2D" uid="uid://bia38pep6uksx" path="res://Texture/Objects/dog_collar.png" id="2_2gjpa"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4bpba"]
+radius = 87.0
+height = 278.0
+
+[node name="Collar" type="Area2D" unique_id=634485995]
+script = ExtResource("1_lqthw")
+metadata/_custom_type_script = "uid://ii4ffnlp4s2"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2146505306]
+scale = Vector2(0.33927405, 0.33927405)
+texture = ExtResource("2_2gjpa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2118956769]
+position = Vector2(0, -9)
+rotation = 1.5707964
+scale = Vector2(0.33927405, 0.33927405)
+shape = SubResource("CapsuleShape2D_4bpba")
