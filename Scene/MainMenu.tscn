@@ -1,0 +1,83 @@
+[gd_scene format=3 uid="uid://bt0fodc2402ew"]
+
+[ext_resource type="Script" uid="uid://giey1hwb5imx" path="res://Scripts/MainMenu.gd" id="1_o3nbu"]
+[ext_resource type="Texture2D" uid="uid://byhd5p7sjm2wv" path="res://Texture/Menu/background.png" id="1_rrxvj"]
+[ext_resource type="Texture2D" uid="uid://ba05vpijmdi8o" path="res://Texture/Menu/start.png" id="2_c6fb4"]
+[ext_resource type="Texture2D" uid="uid://clcq26ppodw6k" path="res://Texture/Menu/controls.png" id="3_6o0c3"]
+[ext_resource type="Texture2D" uid="uid://b5o54wbp4mpu6" path="res://Texture/Menu/quit.png" id="4_d4yab"]
+[ext_resource type="Texture2D" uid="uid://bbm7pvi7j7p1" path="res://Texture/Menu/title.png" id="6_v3p41"]
+
+[node name="Menu" type="Control" unique_id=114357393]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_o3nbu")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=401582898]
+texture_filter = 1
+position = Vector2(584, 306)
+scale = Vector2(0.765869, 0.765869)
+texture = ExtResource("1_rrxvj")
+
+[node name="Title" type="Sprite2D" parent="." unique_id=1596779217]
+texture_filter = 1
+position = Vector2(584, 156)
+texture = ExtResource("6_v3p41")
+
+[node name="PlayButton" type="TextureButton" parent="." unique_id=923849961]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -147.00003
+offset_top = -62.0
+offset_right = 275.0
+offset_bottom = 90.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.73997796, 0.73997796)
+texture_normal = ExtResource("2_c6fb4")
+
+[node name="ControlsButton" type="TextureButton" parent="." unique_id=2041289959]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -153.0
+offset_top = 46.0
+offset_right = 376.0
+offset_bottom = 225.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.61627024, 0.61627024)
+texture_normal = ExtResource("3_6o0c3")
+
+[node name="QuitButton" type="TextureButton" parent="." unique_id=49436870]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -147.00003
+offset_top = 158.0
+offset_right = 275.0
+offset_bottom = 310.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.73997796, 0.73997796)
+texture_normal = ExtResource("4_d4yab")
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="ControlsButton" to="." method="_on_controls_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

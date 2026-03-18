@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c6gexy586a13k"]
+
+[ext_resource type="Texture2D" uid="uid://bnxva3beb4k55" path="res://Texture/Empty.png" id="1_xnb2p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_361qi"]
+size = Vector2(198.5, 175)
+
+[node name="InvisibleWall" type="StaticBody2D" unique_id=192902003]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1607259110]
+scale = Vector2(0.2887325, 0.4217172)
+texture = ExtResource("1_xnb2p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=815340018]
+shape = SubResource("RectangleShape2D_361qi")
