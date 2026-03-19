@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://dkdetfdjrijv4" path="res://Assets/Log.tscn" id="8_qhkgf"]
 [ext_resource type="PackedScene" uid="uid://c6gexy586a13k" path="res://Assets/Invisible.tscn" id="9_fljr0"]
 [ext_resource type="PackedScene" uid="uid://xyawehvn4sil" path="res://Assets/BridgeZone.tscn" id="10_jlhcl"]
+[ext_resource type="PackedScene" uid="uid://bxevald06qyd6" path="res://Assets/Sign.tscn" id="11_onx7i"]
 
 [node name="Level2" type="Control" unique_id=1265531899]
 layout_mode = 3
@@ -135,5 +136,9 @@ scale = Vector2(0.87015337, -0.22097792)
 [node name="BridgeZone" parent="." unique_id=1194319005 instance=ExtResource("10_jlhcl")]
 position = Vector2(2149, 333.00003)
 scale = Vector2(0.626736, 0.39143616)
+
+[node name="Sign" parent="." unique_id=1038019031 instance=ExtResource("11_onx7i")]
+position = Vector2(1997.0001, 251)
+text = "Hmm… the gap is too wide to cross, adventurer… unless you craft a bridge from logs to forge your way forward!"
 
 [connection signal="body_entered" from="BridgeZone" to="." method="_on_bridge_zone_body_entered"]

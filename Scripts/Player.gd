@@ -41,6 +41,9 @@ func _physics_process(delta):
 		if movement_state != "idle":
 			current_state = movement_state
 			player.play(current_state)
+	
+	if Input.is_action_just_pressed("hint"):
+		Signals.hint_used.emit()
 
 func _on_dog_animation_finished():
 	if current_state == "bark":

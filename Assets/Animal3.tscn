@@ -73,7 +73,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_a6qv1"]
-size = Vector2(112.78762, 106.05145)
+size = Vector2(112.78762, 226.61157)
 
 [node name="Animal3" type="StaticBody2D" unique_id=354499028]
 collision_layer = 8
@@ -86,6 +86,6 @@ sprite_frames = SubResource("SpriteFrames_rk6j4")
 animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=312922405]
-position = Vector2(5.000002, 46.000008)
+position = Vector2(5.000002, 57)
 scale = Vector2(1.4474107, 1.4474107)
 shape = SubResource("RectangleShape2D_a6qv1")

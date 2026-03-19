@@ -1,7 +1,5 @@
 [gd_scene format=3 uid="uid://ptjsgmcwfe0g"]
 
-[ext_resource type="Texture2D" uid="uid://dd8eofe5lghc0" path="res://Texture/pixel_16_woods v2 free/tree.png" id="1_3tkli"]
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_52mbi"]
 size = Vector2(23, 7)
 
@@ -9,7 +7,6 @@ size = Vector2(23, 7)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=161119943]
 texture_filter = 1
-texture = ExtResource("1_3tkli")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=548762689]
 position = Vector2(0.5, 25.5)

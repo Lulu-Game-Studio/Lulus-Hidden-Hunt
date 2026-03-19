@@ -11,7 +11,6 @@
 [ext_resource type="PackedScene" uid="uid://c5bcsdlwatjar" path="res://Assets/Animal2.tscn" id="9_ung1x"]
 [ext_resource type="PackedScene" uid="uid://b8u7ko1m3b1mc" path="res://Assets/AnimalZone.tscn" id="10_gk8sw"]
 [ext_resource type="PackedScene" uid="uid://cssto8h1ggrx5" path="res://Assets/Animal3.tscn" id="10_lihk5"]
-[ext_resource type="PackedScene" uid="uid://bxevald06qyd6" path="res://Assets/Sign.tscn" id="12_igbqf"]
 
 [node name="Level3" type="Control" unique_id=1265531899]
 layout_mode = 3
@@ -23,8 +22,8 @@ collectible_scene = ExtResource("5_1sp0j")
 
 [node name="Player" parent="." unique_id=1396861226 instance=ExtResource("4_trere")]
 z_index = 100
-position = Vector2(2280, -177)
-scale = Vector2(0.5625674, 0.5625674)
+position = Vector2(-1117, -663)
+scale = Vector2(0.6751046, 0.6751046)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=440654261]
 scale = Vector2(1.481252, 1.481252)
@@ -184,10 +183,6 @@ scale = Vector2(1, -1)
 [node name="AnimalZone3" parent="Animals" unique_id=1406117338 instance=ExtResource("10_gk8sw")]
 position = Vector2(1882.9999, 1460.9999)
 scale = Vector2(0.98536086, -1.8935636)
-
-[node name="Sign" parent="." unique_id=1038019031 instance=ExtResource("12_igbqf")]
-position = Vector2(1519.0001, -251)
-text = "The path is blocked by animals, adventurer… what might happen if you bark at them? Press E to bark!"
 
 [connection signal="body_entered" from="Animals/AnimalZone" to="." method="_on_animal_zone_body_entered"]
 [connection signal="body_exited" from="Animals/AnimalZone" to="." method="_on_animal_zone_body_exited"]
