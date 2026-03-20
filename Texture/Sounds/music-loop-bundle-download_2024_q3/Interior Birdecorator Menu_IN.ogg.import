@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dlfd14jf03ym"
+path="res://.godot/imported/Interior Birdecorator Menu_IN.ogg-5fcb158e097a4bc7bb158ebc9bae6f3e.oggvorbisstr"
+
+[deps]
+
+source_file="res://Texture/Sounds/music-loop-bundle-download_2024_q3/Interior Birdecorator Menu_IN.ogg"
+dest_files=["res://.godot/imported/Interior Birdecorator Menu_IN.ogg-5fcb158e097a4bc7bb158ebc9bae6f3e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cdqqwgfw2ixfs"
+path="res://.godot/imported/Troubadeck 37 Weight of the Crown.ogg-b087ca19027b72d1cf4fc9719e1950da.oggvorbisstr"
+
+[deps]
+
+source_file="res://Texture/Sounds/music-loop-bundle-troubadeck/Troubadeck 37 Weight of the Crown.ogg"
+dest_files=["res://.godot/imported/Troubadeck 37 Weight of the Crown.ogg-b087ca19027b72d1cf4fc9719e1950da.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

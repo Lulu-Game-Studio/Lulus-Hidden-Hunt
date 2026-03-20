@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://clcq26ppodw6k" path="res://Texture/Menu/controls.png" id="3_6o0c3"]
 [ext_resource type="Texture2D" uid="uid://b5o54wbp4mpu6" path="res://Texture/Menu/quit.png" id="4_d4yab"]
 [ext_resource type="Texture2D" uid="uid://bbm7pvi7j7p1" path="res://Texture/Menu/title.png" id="6_v3p41"]
+[ext_resource type="AudioStream" uid="uid://c8r8uwtsr845n" path="res://Texture/Sounds/Sounds/menu.ogg" id="7_6nqpc"]
 
 [node name="Menu" type="Control" unique_id=114357393]
 layout_mode = 3
@@ -77,6 +78,11 @@ grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.73997796, 0.73997796)
 texture_normal = ExtResource("4_d4yab")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="." unique_id=768374010]
+stream = ExtResource("7_6nqpc")
+autoplay = true
+parameters/looping = true
 
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="ControlsButton" to="." method="_on_controls_button_pressed"]

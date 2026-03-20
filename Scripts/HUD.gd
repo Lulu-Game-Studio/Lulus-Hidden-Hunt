@@ -12,6 +12,9 @@ extends CanvasLayer
 # Number of collected objects
 var objects = 0
 
+# Total objects in the level
+var total_objects = 0
+
 
 func _ready():
 	# Connect signal when an object is collected
@@ -22,8 +25,10 @@ func _on_object_collected():
 	# Increase collected objects count
 	objects += 1
 	
+	var text = str(objects) + " / " + str(total_objects)
+	
 	# Update UI text
-	label.text = str(objects)
+	label.text = text
 
 
 func set_object_texture(texture):
@@ -34,3 +39,10 @@ func set_object_texture(texture):
 func update_hints(value):
 	# Update hints text in UI
 	hints_label.text = str(value)
+
+
+func set_total_objects(value):
+	# Set total objects and update UI
+	total_objects = value
+	var text = str(objects) + " / " + str(total_objects)
+	label.text = text

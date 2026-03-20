@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bhqb722rllav2"
+path="res://.godot/imported/Sketchbook 2025-12-17_CHILL.ogg-5410b26edef9bb2fed207e8955c8d02e.oggvorbisstr"
+
+[deps]
+
+source_file="res://Texture/Sounds/music-loop-bundle-download_2025_q4/Sketchbook 2025-12-17_CHILL.ogg"
+dest_files=["res://.godot/imported/Sketchbook 2025-12-17_CHILL.ogg-5410b26edef9bb2fed207e8955c8d02e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

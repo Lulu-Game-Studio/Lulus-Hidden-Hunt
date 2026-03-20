@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bprv713huffv0"
+path="res://.godot/imported/Troubadeck 14 Life is Hard.ogg-23c538b1c38103be548c636841c70266.oggvorbisstr"
+
+[deps]
+
+source_file="res://Texture/Sounds/music-loop-bundle-troubadeck/Troubadeck 14 Life is Hard.ogg"
+dest_files=["res://.godot/imported/Troubadeck 14 Life is Hard.ogg-23c538b1c38103be548c636841c70266.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

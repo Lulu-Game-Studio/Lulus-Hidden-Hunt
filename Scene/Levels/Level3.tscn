@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://b8u7ko1m3b1mc" path="res://Assets/AnimalZone.tscn" id="10_gk8sw"]
 [ext_resource type="PackedScene" uid="uid://cssto8h1ggrx5" path="res://Assets/Animal3.tscn" id="10_lihk5"]
 [ext_resource type="PackedScene" uid="uid://bxevald06qyd6" path="res://Assets/Sign.tscn" id="12_igbqf"]
+[ext_resource type="AudioStream" uid="uid://d1k4agextwucn" path="res://Texture/Sounds/Sounds/level3.ogg" id="13_trere"]
 
 [node name="Level3" type="Control" unique_id=1265531899]
 layout_mode = 3
@@ -188,6 +189,12 @@ scale = Vector2(0.98536086, -1.8935636)
 [node name="Sign" parent="." unique_id=1038019031 instance=ExtResource("12_igbqf")]
 position = Vector2(1519.0001, -251)
 text = "The path is blocked by animals, adventurer… what might happen if you bark at them? Press E to bark!"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="." unique_id=1277854985]
+stream = ExtResource("13_trere")
+volume_db = -15.0
+autoplay = true
+parameters/looping = true
 
 [connection signal="body_entered" from="Animals/AnimalZone" to="." method="_on_animal_zone_body_entered"]
 [connection signal="body_exited" from="Animals/AnimalZone" to="." method="_on_animal_zone_body_exited"]

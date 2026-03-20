@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b4dqtn3nqn8s3"
+path="res://.godot/imported/VGMA Challenge 31.ogg-3d6e88bd08009ee512f0a8f21fdb69cb.oggvorbisstr"
+
+[deps]
+
+source_file="res://Texture/Sounds/music-loop-bundle-download_pre2023/VGMA Challenge 31.ogg"
+dest_files=["res://.godot/imported/VGMA Challenge 31.ogg-3d6e88bd08009ee512f0a8f21fdb69cb.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

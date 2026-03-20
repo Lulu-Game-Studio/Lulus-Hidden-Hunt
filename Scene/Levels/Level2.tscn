@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://c6gexy586a13k" path="res://Assets/Invisible.tscn" id="9_fljr0"]
 [ext_resource type="PackedScene" uid="uid://xyawehvn4sil" path="res://Assets/BridgeZone.tscn" id="10_jlhcl"]
 [ext_resource type="PackedScene" uid="uid://bxevald06qyd6" path="res://Assets/Sign.tscn" id="11_onx7i"]
+[ext_resource type="AudioStream" uid="uid://b3a2k6wxong51" path="res://Texture/Sounds/Sounds/level2.ogg" id="13_ivrue"]
 
 [node name="Level2" type="Control" unique_id=1265531899]
 layout_mode = 3
@@ -140,5 +141,11 @@ scale = Vector2(0.626736, 0.39143616)
 [node name="Sign" parent="." unique_id=1038019031 instance=ExtResource("11_onx7i")]
 position = Vector2(1997.0001, 251)
 text = "Hmm… the gap is too wide to cross, adventurer… unless you craft a bridge from logs to forge your way forward!"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=256541418]
+stream = ExtResource("13_ivrue")
+volume_db = -15.0
+autoplay = true
+parameters/looping = true
 
 [connection signal="body_entered" from="BridgeZone" to="." method="_on_bridge_zone_body_entered"]

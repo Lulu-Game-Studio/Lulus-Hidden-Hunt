@@ -12,6 +12,8 @@ extends Control
 # Number of objects to spawn in this level
 @export var objects_to_spawn: int = 3
 
+var total_objects = 3
+
 # Reference to the HUD (UI)
 @onready var hud = $HUD
 
@@ -25,6 +27,9 @@ func _ready():
 	
 	# Update hints UI
 	hud.update_hints(Hint.hints)
+	
+	# Update total objects UI
+	hud.set_total_objects(total_objects)
 	
 	# Connect hint used signal
 	Signals.hint_used.connect(_on_hint_used)
@@ -84,4 +89,6 @@ func _on_object_collected():
 func _on_hint_used():
 	# Try to use a hint and update UI if successful
 	if Hint.use_hint($Player, self):
+		$Player.audio.stream = preload("res://Texture/Sounds/Sounds/hint.wav")
+		$Player.audio.play()
 		hud.update_hints(Hint.hints)

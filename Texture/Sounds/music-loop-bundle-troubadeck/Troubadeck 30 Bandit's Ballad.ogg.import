@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://daul8x4lm8spq"
+path="res://.godot/imported/Troubadeck 30 Bandit's Ballad.ogg-cb05b6a4cb4b61280a8b8c35bd3caf50.oggvorbisstr"
+
+[deps]
+
+source_file="res://Texture/Sounds/music-loop-bundle-troubadeck/Troubadeck 30 Bandit's Ballad.ogg"
+dest_files=["res://.godot/imported/Troubadeck 30 Bandit's Ballad.ogg-cb05b6a4cb4b61280a8b8c35bd3caf50.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

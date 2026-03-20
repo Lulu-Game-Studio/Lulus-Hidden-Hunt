@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bc0t1w1ma1imb"
+path="res://.godot/imported/Troubadeck 20 Long Lonely Road.ogg-442e60e7a25cf4faa0972b3c84e839f0.oggvorbisstr"
+
+[deps]
+
+source_file="res://Texture/Sounds/music-loop-bundle-troubadeck/Troubadeck 20 Long Lonely Road.ogg"
+dest_files=["res://.godot/imported/Troubadeck 20 Long Lonely Road.ogg-442e60e7a25cf4faa0972b3c84e839f0.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

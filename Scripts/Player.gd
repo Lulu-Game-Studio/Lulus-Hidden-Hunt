@@ -9,6 +9,8 @@ var current_state = "idle"
 var movement_state = "idle"
 var facing_dir = 1
 
+@onready var audio = $AudioStreamPlayer2D
+
 func _ready():
 	player.play("idle")
 
@@ -19,8 +21,14 @@ func _physics_process(delta):
 	velocity = direction * speed
 	move_and_slide()
 	
+	if current_state == "bark":
+		if player.frame == 4:
+			audio.stream = preload("res://Texture/Sounds/Sounds/bark.mp3")
+			audio.play()
+	
 	if direction.x != 0:
 		facing_dir = 1 if direction.x > 0 else -1
+	
 	player.scale.x = facing_dir
 	
 	if direction.length() > 0:

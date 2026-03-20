@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bmsfti0714xn2"
+path="res://.godot/imported/Troubadeck 28 Quaint Questions.ogg-7aa6154edf426bdc8a45d6518ee4d0fe.oggvorbisstr"
+
+[deps]
+
+source_file="res://Texture/Sounds/music-loop-bundle-troubadeck/Troubadeck 28 Quaint Questions.ogg"
+dest_files=["res://.godot/imported/Troubadeck 28 Quaint Questions.ogg-7aa6154edf426bdc8a45d6518ee4d0fe.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

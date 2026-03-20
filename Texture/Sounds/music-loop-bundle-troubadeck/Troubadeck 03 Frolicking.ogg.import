@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dwpidq8ridpb5"
+path="res://.godot/imported/Troubadeck 03 Frolicking.ogg-49633b3efd50a480b5de8303c0c0ef17.oggvorbisstr"
+
+[deps]
+
+source_file="res://Texture/Sounds/music-loop-bundle-troubadeck/Troubadeck 03 Frolicking.ogg"
+dest_files=["res://.godot/imported/Troubadeck 03 Frolicking.ogg-49633b3efd50a480b5de8303c0c0ef17.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
