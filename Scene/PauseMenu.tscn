@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://cgbg1cnf4tn55"]
+
+[ext_resource type="Script" uid="uid://bsm10pk7msjj8" path="res://Scripts/MenuPause.gd" id="1_dcbfr"]
+[ext_resource type="Texture2D" uid="uid://cpgg1es1gpsqa" path="res://Texture/Menu/resume_button.png" id="2_q2f0n"]
+[ext_resource type="Texture2D" uid="uid://b5o54wbp4mpu6" path="res://Texture/Menu/quit.png" id="3_kwk25"]
+[ext_resource type="Texture2D" uid="uid://d4m6kxa8b7h1m" path="res://Texture/Menu/restart.png" id="3_q2f0n"]
+
+[node name="PauseMenu" type="CanvasLayer" unique_id=1941403485]
+process_mode = 3
+script = ExtResource("1_dcbfr")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=436157092]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.14509805, 0.14509805, 0.14509805, 0.7019608)
+metadata/_edit_use_anchors_ = true
+
+[node name="ResumeButton" type="TextureButton" parent="." unique_id=1696835813]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -168.0
+offset_top = -164.0
+offset_right = 277.0
+offset_bottom = -28.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.74, 0.74)
+texture_normal = ExtResource("2_q2f0n")
+
+[node name="RestartButton" type="TextureButton" parent="." unique_id=1779541705]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -168.0
+offset_top = -52.0
+offset_right = 277.0
+offset_bottom = 84.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.8452347, 0.8452347)
+texture_normal = ExtResource("3_q2f0n")
+
+[node name="QuitButton" type="TextureButton" parent="." unique_id=235239778]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -184.0
+offset_top = 60.0
+offset_right = 261.0
+offset_bottom = 204.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.86035466, 0.86035466)
+texture_normal = ExtResource("3_kwk25")
+
+[connection signal="pressed" from="ResumeButton" to="." method="_on_resume_button_pressed"]
+[connection signal="pressed" from="RestartButton" to="." method="_on_restart_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

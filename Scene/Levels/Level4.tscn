@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://cjnrjclcinew0" path="res://Assets/HUD.tscn" id="3_itl8d"]
 [ext_resource type="PackedScene" uid="uid://ucxa4v6gppq3" path="res://Assets/Player.tscn" id="4_u26pb"]
 [ext_resource type="TileSet" uid="uid://75lh2h8x85bx" path="res://Assets/Tileset/Background.tres" id="5_f3p1v"]
+[ext_resource type="PackedScene" uid="uid://cgbg1cnf4tn55" path="res://Scene/PauseMenu.tscn" id="5_f7pek"]
 [ext_resource type="PackedScene" uid="uid://dg7r8p1psaif5" path="res://Assets/Tree.tscn" id="6_10yp1"]
 [ext_resource type="TileSet" uid="uid://tsjykf042c6e" path="res://Assets/Tileset/InvisibleWall.tres" id="6_f7pek"]
 [ext_resource type="Texture2D" uid="uid://boke814uuml1c" path="res://Texture/Other/PNG_n_Tiled/bridge.png" id="7_umhme"]
@@ -30,6 +31,8 @@ scale = Vector2(0.563, 0.563)
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=440654261]
 scale = Vector2(1.481252, 1.481252)
 zoom = Vector2(0.75, 0.75)
+
+[node name="PauseMenu" parent="Player" unique_id=856214648 instance=ExtResource("5_f7pek")]
 
 [node name="Map" type="Node2D" parent="." unique_id=1195478716]
 

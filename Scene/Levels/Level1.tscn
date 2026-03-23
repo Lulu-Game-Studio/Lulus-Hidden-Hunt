@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dg7r8p1psaif5" path="res://Assets/Tree.tscn" id="4_vuguo"]
 [ext_resource type="PackedScene" uid="uid://bxevald06qyd6" path="res://Assets/Sign.tscn" id="7_tkqtc"]
 [ext_resource type="AudioStream" uid="uid://cm5h8j216e5ng" path="res://Texture/Sounds/Sounds/level1.ogg" id="9_t3agd"]
+[ext_resource type="PackedScene" uid="uid://cgbg1cnf4tn55" path="res://Scene/PauseMenu.tscn" id="9_w6yf7"]
 
 [node name="Level1" type="Control" unique_id=1265531899]
 layout_mode = 3
@@ -26,6 +27,8 @@ scale = Vector2(0.6751046, 0.6751046)
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=440654261]
 scale = Vector2(1.481252, 1.481252)
 zoom = Vector2(0.8, 0.8)
+
+[node name="PauseMenu" parent="Player" unique_id=856214648 instance=ExtResource("9_w6yf7")]
 
 [node name="Map" type="Node2D" parent="." unique_id=1195478716]
 
