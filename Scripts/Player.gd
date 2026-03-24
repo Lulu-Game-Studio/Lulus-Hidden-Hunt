@@ -9,12 +9,25 @@ var current_state = "idle"
 var movement_state = "idle"
 var facing_dir = 1
 
+var can_move = true
+
 @onready var audio = $AudioStreamPlayer2D
 
 func _ready():
 	player.play("idle")
+	add_to_group("player")
 
 func _physics_process(delta):
+	if not can_move:
+		velocity = Vector2.ZERO
+		move_and_slide()
+		
+		if current_state != "sit":
+			current_state = "sit"
+			player.play("sit")
+			
+		return
+	
 	var direction = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	var is_running = Input.is_key_pressed(KEY_SHIFT)
 	var speed = RUN_SPEED if is_running else WALK_SPEED

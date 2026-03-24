@@ -33,6 +33,7 @@ scale = Vector2(1.481252, 1.481252)
 zoom = Vector2(0.8, 0.8)
 
 [node name="PauseMenu" parent="Player" unique_id=856214648 instance=ExtResource("5_j7qum")]
+visible = false
 
 [node name="Map" type="Node2D" parent="." unique_id=1195478716]
 
