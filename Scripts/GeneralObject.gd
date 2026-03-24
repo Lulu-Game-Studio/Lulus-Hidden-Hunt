@@ -7,6 +7,11 @@ func _ready():
 	
 	# Connect signal when a body enters the area
 	body_entered.connect(_on_body_entered)
+	
+	var anim_sprite = get_node_or_null("AnimatedSprite2D")
+	
+	if anim_sprite:
+		anim_sprite.play("idle")
 
 
 func _on_body_entered(body):

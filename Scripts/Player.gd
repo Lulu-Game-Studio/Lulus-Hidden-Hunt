@@ -36,7 +36,7 @@ func _physics_process(delta):
 	
 	if current_state == "bark":
 		if player.frame == 4:
-			audio.stream = preload("res://Texture/Sounds/Sounds/bark.mp3")
+			audio.stream = preload("res://Texture/Sounds/bark.mp3")
 			audio.play()
 	
 	if direction.x != 0:

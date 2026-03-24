@@ -89,6 +89,6 @@ func _on_object_collected():
 func _on_hint_used():
 	# Try to use a hint and update UI if successful
 	if Hint.use_hint($Player, self):
-		$Player.audio.stream = preload("res://Texture/Sounds/Sounds/hint.wav")
+		$Player.audio.stream = preload("res://Texture/Sounds/hint.wav")
 		$Player.audio.play()
 		hud.update_hints(Hint.hints)

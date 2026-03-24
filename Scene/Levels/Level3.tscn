@@ -13,7 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://b8u7ko1m3b1mc" path="res://Assets/AnimalZone.tscn" id="10_gk8sw"]
 [ext_resource type="PackedScene" uid="uid://cssto8h1ggrx5" path="res://Assets/Animal3.tscn" id="10_lihk5"]
 [ext_resource type="PackedScene" uid="uid://bxevald06qyd6" path="res://Assets/Sign.tscn" id="12_igbqf"]
-[ext_resource type="AudioStream" uid="uid://d1k4agextwucn" path="res://Texture/Sounds/Sounds/level3.ogg" id="13_trere"]
+[ext_resource type="AudioStream" uid="uid://d1k4agextwucn" path="res://Texture/Sounds/level3.ogg" id="13_trere"]
 
 [node name="Level3" type="Control" unique_id=1265531899]
 layout_mode = 3

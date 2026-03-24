@@ -13,7 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://c6gexy586a13k" path="res://Assets/Invisible.tscn" id="9_r1dec"]
 [ext_resource type="PackedScene" uid="uid://xyawehvn4sil" path="res://Assets/BridgeZone.tscn" id="10_admal"]
 [ext_resource type="PackedScene" uid="uid://bxevald06qyd6" path="res://Assets/Sign.tscn" id="12_itl8d"]
-[ext_resource type="AudioStream" uid="uid://brflp8afxbdwq" path="res://Texture/Sounds/Sounds/level4.ogg" id="13_u26pb"]
+[ext_resource type="AudioStream" uid="uid://brflp8afxbdwq" path="res://Texture/Sounds/level4.ogg" id="13_u26pb"]
 
 [node name="Level4" type="Control" unique_id=1265531899]
 layout_mode = 3
@@ -324,6 +324,7 @@ text = "Hey there, adventurer! Build the bridges in the right order… or be tra
 stream = ExtResource("13_u26pb")
 volume_db = -15.0
 autoplay = true
+parameters/looping = true
 
 [connection signal="body_entered" from="BridgeZone" to="." method="_on_bridge_zone_body_entered"]
 [connection signal="body_entered" from="BridgeZone2" to="." method="_on_bridge_zone_2_body_entered"]
