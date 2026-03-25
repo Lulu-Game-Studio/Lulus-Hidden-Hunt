@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cjnrjclcinew0"]
 
 [ext_resource type="Script" uid="uid://dot6dy4rnymr2" path="res://Scripts/HUD.gd" id="1_h57ut"]
+[ext_resource type="Texture2D" uid="uid://xtvu5kdtrvoo" path="res://Texture/Menu/hint.png" id="2_jdvxe"]
 
 [node name="HUD" type="CanvasLayer" unique_id=2120061561]
 script = ExtResource("1_h57ut")
@@ -8,6 +9,11 @@ script = ExtResource("1_h57ut")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1200538227]
 position = Vector2(35.000004, 46.000004)
 scale = Vector2(0.15, 0.15)
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=571473996]
+position = Vector2(1050, 46.000004)
+scale = Vector2(0.24707451, 0.24707451)
+texture = ExtResource("2_jdvxe")
 
 [node name="Container" type="HBoxContainer" parent="." unique_id=1356149086]
 anchors_preset = 10
@@ -24,6 +30,21 @@ theme_override_font_sizes/font_size = 27
 text = "Found:"
 
 [node name="Objects" type="Label" parent="Container" unique_id=415979337]
+layout_mode = 2
+theme_override_font_sizes/font_size = 27
+text = "0 / 0"
+
+[node name="Container2" type="HBoxContainer" parent="." unique_id=1984763941]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 61.0
+offset_top = 26.0
+offset_right = -52.0
+offset_bottom = 63.0
+grow_horizontal = 2
+alignment = 2
+
+[node name="Hints" type="Label" parent="Container2" unique_id=1603264051]
 layout_mode = 2
 theme_override_font_sizes/font_size = 27
 text = "0"

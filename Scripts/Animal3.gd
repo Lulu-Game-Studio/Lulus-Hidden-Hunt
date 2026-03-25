@@ -1,29 +1,9 @@
-extends StaticBody2D
-
-var speed = 350
-var direction = Vector2.ZERO
-var active = false
-var distance = 0
-var max_distance = 1000
-
-@onready var animal = $AnimatedSprite2D
+extends Animal
 
 func _ready():
-	animal.play("idle")
+	speed = 350
+	max_distance = 4000
+	play_idle()
 
-func _physics_process(delta):
-	if not active:
-		return
-	
-	var move = direction * speed * delta
-	animal.play("run")
+func apply_extra():
 	animal.scale.x = -6.288
-	position += move
-	distance += move.length()
-	
-	if distance >= max_distance:
-		queue_free()
-
-func scatter(dir: Vector2):
-	direction = dir
-	active = true

@@ -1,0 +1,138 @@
+[gd_scene format=3 uid="uid://chofdjdaocovy"]
+
+[ext_resource type="Script" uid="uid://ii4ffnlp4s2" path="res://Scripts/GeneralObject.gd" id="1_3uqvg"]
+[ext_resource type="Texture2D" uid="uid://ca3uwquvhgnnk" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0000.png" id="2_ewnni"]
+[ext_resource type="Texture2D" uid="uid://wb0a2mcjownp" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0001.png" id="3_uob2h"]
+[ext_resource type="Texture2D" uid="uid://bwf30y38h0lss" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0002.png" id="4_p2jkg"]
+[ext_resource type="Texture2D" uid="uid://cnmtgs63aly12" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0003.png" id="5_gupdf"]
+[ext_resource type="Texture2D" uid="uid://bg1qc6c6lnl38" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0004.png" id="6_fxwh5"]
+[ext_resource type="Texture2D" uid="uid://coq13e67hhe63" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0005.png" id="7_2siat"]
+[ext_resource type="Texture2D" uid="uid://dllmwdoulkf3g" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0006.png" id="8_yqkt1"]
+[ext_resource type="Texture2D" uid="uid://cdsgtwpi4npvv" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0007.png" id="9_47wno"]
+[ext_resource type="Texture2D" uid="uid://b8rbw3re8og3k" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0008.png" id="10_04qw5"]
+[ext_resource type="Texture2D" uid="uid://br54ccautt5du" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0009.png" id="11_lee6p"]
+[ext_resource type="Texture2D" uid="uid://c03a0adqw8lmg" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0010.png" id="12_hb6u2"]
+[ext_resource type="Texture2D" uid="uid://b4kexhtv1gh3u" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0011.png" id="13_4613h"]
+[ext_resource type="Texture2D" uid="uid://b76264ye5avi8" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0012.png" id="14_vcpvq"]
+[ext_resource type="Texture2D" uid="uid://bcmco4myh17sv" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0013.png" id="15_vjlms"]
+[ext_resource type="Texture2D" uid="uid://b8t03h4lantqo" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0014.png" id="16_66xj5"]
+[ext_resource type="Texture2D" uid="uid://dlmnvdn0beexe" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0015.png" id="17_vhds6"]
+[ext_resource type="Texture2D" uid="uid://wy7qfjn1w4lg" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0016.png" id="18_xy530"]
+[ext_resource type="Texture2D" uid="uid://c5t0whrlfdoaq" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0017.png" id="19_kp8fy"]
+[ext_resource type="Texture2D" uid="uid://dvl78hbq7ddse" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0018.png" id="20_jpbxr"]
+[ext_resource type="Texture2D" uid="uid://1rbssqlbhr3f" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0019.png" id="21_e33xj"]
+[ext_resource type="Texture2D" uid="uid://dw11any5cl214" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0020.png" id="22_iwg67"]
+[ext_resource type="Texture2D" uid="uid://dogqgltqe773b" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0021.png" id="23_ca5es"]
+[ext_resource type="Texture2D" uid="uid://bcn4jka41w60m" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0022.png" id="24_n7l6j"]
+[ext_resource type="Texture2D" uid="uid://6njc2veh7lqe" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0023.png" id="25_e6txx"]
+[ext_resource type="Texture2D" uid="uid://c76yir7mucc2f" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0024.png" id="26_d4vyc"]
+[ext_resource type="Texture2D" uid="uid://dop72rq0q7va7" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0025.png" id="27_pjkr0"]
+[ext_resource type="Texture2D" uid="uid://b2bmijshvmfjs" path="res://Texture/Pixel Art Key Pack - Animated/Key 8/CURSE/Key 8 - CURSE - frame0026.png" id="28_xspac"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mdxnr"]
+animations = [{
+"frames": [{
+"duration": 0.4,
+"texture": ExtResource("2_ewnni")
+}, {
+"duration": 0.4,
+"texture": ExtResource("3_uob2h")
+}, {
+"duration": 0.4,
+"texture": ExtResource("4_p2jkg")
+}, {
+"duration": 0.4,
+"texture": ExtResource("5_gupdf")
+}, {
+"duration": 0.4,
+"texture": ExtResource("6_fxwh5")
+}, {
+"duration": 0.4,
+"texture": ExtResource("7_2siat")
+}, {
+"duration": 0.4,
+"texture": ExtResource("8_yqkt1")
+}, {
+"duration": 0.4,
+"texture": ExtResource("9_47wno")
+}, {
+"duration": 0.4,
+"texture": ExtResource("10_04qw5")
+}, {
+"duration": 0.4,
+"texture": ExtResource("11_lee6p")
+}, {
+"duration": 0.4,
+"texture": ExtResource("12_hb6u2")
+}, {
+"duration": 0.4,
+"texture": ExtResource("13_4613h")
+}, {
+"duration": 0.4,
+"texture": ExtResource("14_vcpvq")
+}, {
+"duration": 0.4,
+"texture": ExtResource("15_vjlms")
+}, {
+"duration": 0.4,
+"texture": ExtResource("16_66xj5")
+}, {
+"duration": 0.4,
+"texture": ExtResource("17_vhds6")
+}, {
+"duration": 0.4,
+"texture": ExtResource("18_xy530")
+}, {
+"duration": 0.4,
+"texture": ExtResource("19_kp8fy")
+}, {
+"duration": 0.4,
+"texture": ExtResource("20_jpbxr")
+}, {
+"duration": 0.4,
+"texture": ExtResource("21_e33xj")
+}, {
+"duration": 0.4,
+"texture": ExtResource("22_iwg67")
+}, {
+"duration": 0.4,
+"texture": ExtResource("23_ca5es")
+}, {
+"duration": 0.4,
+"texture": ExtResource("24_n7l6j")
+}, {
+"duration": 0.4,
+"texture": ExtResource("25_e6txx")
+}, {
+"duration": 0.4,
+"texture": ExtResource("26_d4vyc")
+}, {
+"duration": 0.4,
+"texture": ExtResource("27_pjkr0")
+}, {
+"duration": 0.4,
+"texture": ExtResource("28_xspac")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3uqvg"]
+size = Vector2(21, 49)
+
+[node name="Key" type="Area2D" unique_id=1479706705]
+position = Vector2(0, -15)
+scale = Vector2(1.5032201, 1.5032201)
+script = ExtResource("1_3uqvg")
+metadata/_custom_type_script = "uid://ii4ffnlp4s2"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=500843791]
+texture_filter = 1
+scale = Vector2(1.6776974, 1.6776974)
+sprite_frames = SubResource("SpriteFrames_mdxnr")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=317699158]
+position = Vector2(-0.5, 14.5)
+shape = SubResource("RectangleShape2D_3uqvg")

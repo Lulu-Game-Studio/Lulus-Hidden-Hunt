@@ -1,38 +1,38 @@
 [gd_scene format=3 uid="uid://c5bcsdlwatjar"]
 
 [ext_resource type="Script" uid="uid://ct5yv6yn3lrxq" path="res://Scripts/Animal2.gd" id="1_ow2px"]
-[ext_resource type="Texture2D" uid="uid://de6y6kwh2t6ym" path="res://Texture/Animals/MinifolksForestAnimals/Without outline/MiniBunny.png" id="2_alj7r"]
+[ext_resource type="Texture2D" uid="uid://xmhtr8bmsslb" path="res://Texture/Animals/MinifolksForestAnimals/Outline/MiniBunny.png" id="2_dvpwd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ni37l"]
-atlas = ExtResource("2_alj7r")
+atlas = ExtResource("2_dvpwd")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pn0if"]
-atlas = ExtResource("2_alj7r")
+atlas = ExtResource("2_dvpwd")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dcrg1"]
-atlas = ExtResource("2_alj7r")
+atlas = ExtResource("2_dvpwd")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vc5hs"]
-atlas = ExtResource("2_alj7r")
+atlas = ExtResource("2_dvpwd")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ow2px"]
-atlas = ExtResource("2_alj7r")
+atlas = ExtResource("2_dvpwd")
 region = Rect2(0, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dvpwd"]
-atlas = ExtResource("2_alj7r")
+atlas = ExtResource("2_dvpwd")
 region = Rect2(32, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_alj7r"]
-atlas = ExtResource("2_alj7r")
+atlas = ExtResource("2_dvpwd")
 region = Rect2(64, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8a3jy"]
-atlas = ExtResource("2_alj7r")
+atlas = ExtResource("2_dvpwd")
 region = Rect2(96, 32, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_rk6j4"]
